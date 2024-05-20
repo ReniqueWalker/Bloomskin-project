@@ -1,0 +1,354 @@
+.navbar {
+    background-color: #E31E93;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 40;
+}
+
+.navbar-brand {
+    color: #FCF298;
+}
+
+.navbar-toggler {
+    color: #FCF298;
+}
+
+.marquee {
+    color: #E31E93;
+}
+
+.marquee_text {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+* {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 10%;
+}
+
+.scrolling-text {
+    white-space: nowrap;
+    /* Prevent text wrapping */
+    overflow: none;
+    /* Hide overflow */
+    animation: scroll-left 15s linear infinite;
+    /* Animation */
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #ffeef7;
+    /* Set background color */
+    /* background-image: url("https://uk.balibodyco.com/cdn/shop/files/VIT-D-SWATCH_f8b3481b-a055-4b25-a411-ed170df43f72.jpg?v=1699842013&amp;width=1445"); */
+    background-size: cover;
+    /* Cover the entire viewport */
+    background-repeat: no-repeat;
+    /* Prevent background image from repeating */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: flex-start;
+    /* Align items to the start */
+    padding: 20px;
+    /* Add padding to the flex container */
+}
+
+.item {
+    flex: 0 0 calc(50% - 20px);
+    /* Two items per row with margin */
+    margin: 10px;
+    /* Adjust margin between items */
+    background-color: #e31d93;
+    /* Initial background color for the items */
+    padding: 20px;
+    /* Add padding to each item */
+    text-align: center;
+    /* Center align text */
+    border-radius: 10px;
+    height: 725px;
+}
+
+.item:nth-child(odd) {
+    background-color: #FCF298;
+    /* Alternate background color */
+}
+
+.item img {
+    max-width: 100%;
+    /* Limit image width to fit container */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Add transition for smooth enlargement */
+}
+
+.item:hover img {
+    transform: scale(1.1);
+    /* Enlarge image slightly on hover */
+}
+
+.text {
+    color: #001ba4;
+    /* Text color for titles */
+    padding: 20px;
+    font-size: 20px;
+}
+
+.paragraph {
+    color: #001ba4;
+    /* Text color for paragraphs */
+    padding: 10px;
+}
+
+/* Aqilah's code starts here */
+
+.navbar {
+    background-color: #E31E93;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    z-index: 40;
+}
+
+.navbar-brand {
+    color: #FCF298;
+}
+
+.navbar-toggler {
+    color: #FCF298;
+}
+
+.marquee {
+    color: #E31E93;
+}
+
+.marquee_text {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+* {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 10%;
+}
+
+.scrolling-text {
+    white-space: nowrap;
+    /* Prevent text wrapping */
+    overflow: none;
+    /* Hide overflow */
+    animation: scroll-left 15s linear infinite;
+    /* Animation */
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #ffeef7;
+    /* Set background color */
+    /* background-image: url("https://uk.balibodyco.com/cdn/shop/files/VIT-D-SWATCH_f8b3481b-a055-4b25-a411-ed170df43f72.jpg?v=1699842013&amp;width=1445"); */
+    background-size: cover;
+    /* Cover the entire viewport */
+    background-repeat: no-repeat;
+    /* Prevent background image from repeating */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: flex-start;
+    /* Align items to the start */
+    padding: 20px;
+    /* Add padding to the flex container */
+}
+
+.item {
+    flex: 0 0 calc(50% - 20px);
+    /* Two items per row with margin */
+    margin: 10px;
+    /* Adjust margin between items */
+    background-color: #e31d93;
+    /* Initial background color for the items */
+    padding: 20px;
+    /* Add padding to each item */
+    text-align: center;
+    /* Center align text */
+    border-radius: 10px;
+    height: 800px;
+}
+
+.item:nth-child(odd) {
+    background-color: #FCF298;
+    /* Alternate background color */
+}
+
+.item img {
+    max-width: 400px;
+    /* Limit image width to fit container */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Add transition for smooth enlargement */
+}
+
+.item:hover img {
+    transform: scale(1.1);
+    /* Enlarge image slightly on hover */
+}
+
+.text {
+    color: #001ba4;
+    /* Text color for titles */
+    padding: 20px;
+    font-size: 40px;
+
+}
+
+.paragraph {
+    color: #001ba4;
+    /* Text color for paragraphs */
+    padding: 0px;
+    font-size: 20px;
+}
+
+
+
+
+h2 {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    color: #FCF298;
+    background-color: #E31E93;
+    font-weight: 5000;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    color: #FCF298;
+    display: inline-block;
+}
+
+.productimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    margin: 30px;
+    width: auto;
+    height: 350px;
+    opacity: 5;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #FCF298;
+}
+
+.button {
+    background-color: #E31E93;
+    color: #FCF298;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #FCF298;
+    color: #E31E93;
+}
+
+/* p {
+    font-size: 50px;
+} */
